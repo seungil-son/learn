@@ -6,18 +6,19 @@ package com.my.object;
 
 class ArgsClass{
 
-  /*  void paramf(int...values){  // 가변길이 매개변수
-        for(int i=0; i < values.length; i++)
-        {
-            System.out.println(values[i]);
-        }
-    }*/
-    void paramf(int[] values){
+   void paramf(int...values){  // 가변길이 매개변수. 배열 or 가변길이 인수를 받을 수 있다.
         for(int i=0; i < values.length; i++)
         {
             System.out.println(values[i]);
         }
     }
+    /*
+    void paramf(int[] values){
+        for(int i=0; i < values.length; i++)
+        {
+            System.out.println(values[i]);
+        }
+    }*/
 }
 
 public class ArgsTest {
@@ -25,7 +26,7 @@ public class ArgsTest {
         ArgsClass obj = new ArgsClass();
         int i = 4, i2 = 55;
 
-        //obj.paramf(1, 2, 3, i , i2);
+        obj.paramf(1, 2, 3, i , i2);
 
         int[] ary = {1,2,3,4,55};
         obj.paramf(ary);
