@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lowper.iml" filepath="$PROJECT_DIR$/lowper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lower.iml" filepath="$PROJECT_DIR$/lower.iml" />
     </modules>
   </component>
 </project>
