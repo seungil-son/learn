@@ -1,4 +1,4 @@
-package com.my.abst;
+package com.my.poly.abst;
 
 /*
     추상(abstract) 메서드는 몸체 부분이 없는 메서드로 abstract 키워드를 붙인다.

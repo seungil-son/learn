@@ -1,4 +1,4 @@
-package com.my.abst;
+package com.my.poly.abst;
 
 public class Animal {
     public  void makeSound() {
