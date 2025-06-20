@@ -5,6 +5,16 @@ public interface RemoteControl {
 
 }
 // 구현 클래스
-class Television implements RemoteControl{  // Interface의 상속은 implements
-    
-}
+    class Television implements RemoteControl{  // Interface의 상속은 implements
+     @Override
+      public void turnOn(){
+        System.out.println("TV On");
+     }
+    }
+
+    class Radio implements RemoteControl {
+      @Override
+      public void turnOn() {
+         System.out.println("Radio On");
+      }
+    }
